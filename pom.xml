@@ -55,6 +55,30 @@
             <version>1.4.1</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+    	<dependency>
+            <groupId>com.mulesoft.connectors</groupId>
+            <artifactId>mule-sap-connector</artifactId>
+            <version>5.3.2</version>
+            <classifier>mule-plugin</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.conn.idoc</groupId>
+            <artifactId>sapidoc3</artifactId>
+            <version>3.0.18</version>
+            <type>jar</type>
+        </dependency>
+         <dependency>
+            <groupId>com.sap.conn.jco</groupId>
+            <artifactId>com.sap.conn.jco.sapjco3</artifactId>
+            <version>3.0.18</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.conn.jco</groupId>
+            <artifactId>libsapjco3</artifactId>
+            <version>3.0.18</version>
+            <type>jnilib</type>
+        </dependency>
     </dependencies>
 
 	<repositories>
